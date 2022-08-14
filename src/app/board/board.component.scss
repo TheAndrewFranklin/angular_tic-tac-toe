@@ -1,0 +1,18 @@
+main {
+  color: black;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 1rem;
+  width: min-content;
+}
+
+app-square {
+  font-family: 'Ariel, Helvectica, sans-serif';
+  font-size: 4rem;
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
